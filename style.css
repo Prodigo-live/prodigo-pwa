@@ -922,6 +922,12 @@ footer{
 
     }
 
+    .navbar{
+        background-color: #20204094;
+    }
+
+
+
     .container1{
         width: 100%;
         max-width: 122.5rem;
@@ -1019,6 +1025,11 @@ footer{
     .card{
         width: 35rem;
     }
+
+    .navbar{
+        background-color: #20204094;
+    }
+
     
     .about{
         width: 93%;
