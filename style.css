@@ -334,6 +334,7 @@ nav{
 
 .change .hamburger-menu{
     right: 33rem;
+    
 }
 
 .line{
@@ -924,6 +925,9 @@ footer{
 
     .navbar{
         background-color: #20204094;
+        width: 100%;
+        position: fixed;
+        z-index: 10;
     }
 
 
@@ -1028,6 +1032,10 @@ footer{
 
     .navbar{
         background-color: #20204094;
+        width: 100%;
+        position: fixed;
+        z-index: 10;
+
     }
 
     
@@ -1257,11 +1265,6 @@ footer{
 
     }
 
-}
-
-@media(max-width: 1027){
-
-    
 }
 
 
