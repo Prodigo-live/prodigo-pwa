@@ -1,0 +1,42 @@
+@media (min-width: 1200px) {
+  .section-m90 {
+    margin-right: 90px;
+    margin-left: 90px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-p90 {
+    padding-right: 90px;
+    padding-left: 90px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #mainNav {
+    padding: 20px 100px;
+    margin-bottom: 100px;
+  }
+}
+
+.btn.btn-primary {
+  background-color: #FFBD69;
+  transition: transform .4s;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 .2rem #ffbd69!important;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  color: #fff;
+  background-color: #FFBD69!important;
+  transform: scale(1.1);
+}
+
+body {
+  font-family: quicksand,Helvetica Neue,Arial,sans-serif;
+}
+
