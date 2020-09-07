@@ -39,4 +39,27 @@
 body {
   font-family: quicksand,Helvetica Neue,Arial,sans-serif;
 }
-
+#mainNav.navbar-shrink .navbar-brand, #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+	color: #FFBD69;
+}
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+	color: #FFBD69 !important;
+	background-color: transparent;
+}
+.text-primary{
+  color: #FFBD69 !important;
+}
+.bg-primary{
+  background: #FFBD69 !important;
+}
+hr{
+  border-color: #FFBD69;
+}
+.portfolio-box .portfolio-box-caption {
+	background: #FFBD69;
+}
+@media (max-width: 991px) {
+  .section{
+    padding:30px;
+  }
+}
