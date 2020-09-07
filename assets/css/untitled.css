@@ -63,3 +63,6 @@ hr{
     padding:30px;
   }
 }
+html{
+  overflow-x: hidden;
+}
