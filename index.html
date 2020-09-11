@@ -20,367 +20,492 @@
     <link rel="stylesheet" href="assets/css/untitled.css?h=123bae13afb0ffa0cc22366642bcf9ed">
 </head>
 
-<body id="page-top">
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
-        <div class="container-fluid"><a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="img-fluid"
-                    src="assets/img/logo.png?h=ed215eae0c09cf342eb4a963f2ee686e" style="width: 40px;">Prodigo</a><button
-                data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right"
-                type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i
-                    class="fa fa-align-justify"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger"
-                            href="#features">Features</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger"
-                            href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger"
-                            href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <header class="masthead text-white text-center d-flex"
-        style="background: url(&quot;assets/img/gilles-lambert-pb_lF8VWaPU-unsplash.jpg?h=1e0a2a51dfb134a58fe757975cbbf111&quot;) center;">
-        <section class="section">
-            <div class="row justify-content-center align-items-center mx-0" data-aos="fade-up" data-aos-duration="800"
-                data-aos-delay="100" data-aos-once="true">
-                <div class="col-lg-5 col-12 text-left">
-                    <h1 class="text-left mb-4">Whats Prodigo.?</h1>
-                    <h3 class="text-left mb-4">Incessant Integration for Inspiring Education</h3>
-                    <p class="text-left mb-0">A enterprise resource planning (E.R.P) platform with many modules that can
-                        handle various tasks of various departments of your institution. Few of the modules being</p>
-                    <ul class="text-left" style="padding: 0 0 0 20px;">
-                        <li>Attendance</li>
-                        <li>Student Syllabus</li>
-                        <li>Schedule</li>
-                        <li>Overall improvement</li>
-                        <li>Class schedule automation&nbsp;</li>
-                        <li>Assignments and much more..</li>
+<body onload="spinner()" id="page-top">
+    <div id="loader"></div>
+    <div>
+        <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
+            <div class="container-fluid"><a class="navbar-brand js-scroll-trigger" href="#page-top"><img
+                        class="img-fluid" src="assets/img/logo.png?h=ed215eae0c09cf342eb4a963f2ee686e"
+                        style="width: 40px;">Prodigo</a><button data-toggle="collapse" data-target="#navbarResponsive"
+                    class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive"
+                    aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-align-justify"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger"
+                                href="#joinus">Forum</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger"
+                                href="#features">Features</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger"
+                                href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger"
+                                href="#contact">Contact</a></li>
                     </ul>
-                    <p class="text-left">Set to fill the communication gap between staff and students while taking the
-                        institute to new heights.</p><button class="btn btn-primary text-uppercase text-left"
-                        type="button" style="border-style: none;">Learn More</button>
-                </div>
-                <div class="col-4"><img class="img-fluid d-none d-lg-flex"
-                        src="assets/img/undraw_working_late_pukg.svg?h=129218f242e3b148ec34b9a08c906554"></div>
-            </div>
-        </section>
-    </header>
-    <section id="features">
-        <div class="container">
-            <div class="row mx-0">
-                <div class="col-lg-12 text-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100"
-                    data-aos-once="true">
-                    <h2 class="section-heading">At Your Service</h2>
-                    <hr class="my-4">
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="row mx-0">
-                <div class="col-md-6 col-lg-3 text-center">
-                    <div class="mx-auto service-box mt-5"><i
-                            class="fa fa-tencent-weibo fa-4x text-primary mb-3 sr-icons" data-aos="zoom-in"
-                            data-aos-duration="200" data-aos-once="true"></i>
-                        <h3 class="mb-3">Network of modules</h3>
-                        <p class="text-muted mb-0">Our modules are updated regularly so they don't break.</p>
+        </nav>
+        <header class="masthead text-white text-center d-flex"
+            style="background: url(&quot;assets/img/gilles-lambert-pb_lF8VWaPU-unsplash.jpg?h=1e0a2a51dfb134a58fe757975cbbf111&quot;) center;">
+            <section class="section">
+                <div class="row justify-content-center align-items-center mx-0" data-aos="fade-up"
+                    data-aos-duration="800" data-aos-delay="100" data-aos-once="true">
+                    <div class="col-lg-5 col-12 text-left">
+                        <h1 class="text-left mb-4">Whats Prodigo.?</h1>
+                        <h3 class="text-left mb-4">Incessant Integration for Inspiring Education</h3>
+                        <p class="text-left mb-0">A enterprise resource planning (E.R.P) platform with many modules that
+                            can
+                            handle various tasks of various departments of your institution. Few of the modules being
+                        </p>
+                        <ul class="text-left" style="padding: 0 0 0 20px;">
+                            <li>Attendance</li>
+                            <li>Student Syllabus</li>
+                            <li>Schedule</li>
+                            <li>Overall improvement</li>
+                            <li>Class schedule automation&nbsp;</li>
+                            <li>Assignments and much more..</li>
+                        </ul>
+                        <p class="text-left">Set to fill the communication gap between staff and students while taking
+                            the
+                            institute to new heights.</p><a href="#features"
+                            class="btn btn-primary text-uppercase js-scroll-trigger" type="button"
+                            style="border-style: none;">Learn More</a>
                     </div>
+                    <div class="col-4"><img class="img-fluid d-none d-lg-flex"
+                            src="assets/img/undraw_working_late_pukg.svg?h=129218f242e3b148ec34b9a08c906554"></div>
                 </div>
-                <div class="col-md-6 col-lg-3 text-center">
-                    <div class="mx-auto service-box mt-5"><i class="fa fa-puzzle-piece fa-4x text-primary mb-3 sr-icons"
-                            data-aos="zoom-in" data-aos-duration="200" data-aos-delay="200" data-aos-once="true"></i>
-                        <h3 class="mb-3">Chance to customise</h3>
-                        <p class="text-muted mb-0">You can use this module as is, or you can make changes!</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center">
-                    <div class="mx-auto service-box mt-5"><i class="fa fa-laptop fa-4x text-primary mb-3 sr-icons"
-                            data-aos="zoom-in" data-aos-duration="200" data-aos-delay="400" data-aos-once="true"></i>
-                        <h3 class="mb-3">Up to Date with technology</h3>
-                        <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center">
-                    <div class="mx-auto service-box mt-5"><i class="fa fa-user fa-4x text-primary mb-3 sr-icons"
-                            data-aos="fade" data-aos-duration="200" data-aos-delay="600" data-aos-once="true"></i>
-                        <h3 class="mb-3">Problem based approach</h3>
-                        <p class="text-muted mb-0">You do some thing when you need it and have been affected by it</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="p-0">
-        <div class="container-fluid p-0">
-            <div class="row mx-0 justify-content-center no-gutters popup-gallery">
-                <div class="col-sm-6 col-lg-4" data-aos="flip-up" data-aos-duration="850" data-aos-delay="100"
-                    data-aos-once="true"><a class="portfolio-box"
-                        href="assets/img/fullsize/2.jpg?h=360a49604f1ae10f7094cfaeb4d8c473"><img class="img-fluid"
-                            src="assets/img/thumbnails/group.gif?h=6504d25e9670051dc77bac97a8b96585">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>Student</span></div>
-                                <div class="project-name"><span>Forum management</span></div>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col-sm-6 col-lg-4" data-aos="flip-up" data-aos-duration="850" data-aos-delay="150"
-                    data-aos-once="true"><a class="portfolio-box"
-                        href="assets/img/fullsize/3.jpg?h=d6098215d39d0388769070c9f6ad33d6"><img class="img-fluid"
-                            src="assets/img/thumbnails/custom.gif?h=bd371d9cb84a87549e4994337ca1524a">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>Teacher</span></div>
-                                <div class="project-name"><span>Class Planning aid</span></div>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col-sm-6 col-lg-4" data-aos="flip-up" data-aos-duration="850" data-aos-delay="50"
-                    data-aos-once="true"><a class="portfolio-box"
-                        href="assets/img/fullsize/1.jpg?h=f9b3465df27ab0c03ad2ead928dcd277"><img class="img-fluid"
-                            src="assets/img/thumbnails/schedule.gif?h=4b6726638b9678ba9d8cb43cfe917db3">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>Student/Teachers</span></div>
-                                <div class="project-name"><span>Automatic Scheduling</span></div>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col-sm-6 col-lg-4" data-aos="flip-up" data-aos-duration="850" data-aos-delay="200"
-                    data-aos-once="true"><a class="portfolio-box"
-                        href="assets/img/fullsize/4.jpg?h=d3a7a42dcc1b089b2f17eb6cc3ea4be2"><img class="img-fluid"
-                            src="assets/img/thumbnails/data.gif?h=a2fc4b2de5ceef3b1e2824801bda7670">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>Institution</span></div>
-                                <div class="project-name"><span>Own profiles and up-to date insights, which include data
-                                        relevant to student and teacher.</span></div>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col-sm-6 col-lg-4" data-aos="flip-up" data-aos-duration="850" data-aos-delay="300"
-                    data-aos-once="true"><a class="portfolio-box"
-                        href="assets/img/fullsize/6.jpg?h=1edece308118e9a87243d6ea211f86ce"><img class="img-fluid"
-                            src="assets/img/thumbnails/help.gif?h=18f9b55ade028bed8b383e4bceaa0822">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>Teacher/ Student</span></div>
-                                <div class="project-name"><span>Mentoring and personal help given when required direct
-                                        or anonymous&nbsp;</span></div>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col-sm-6 col-lg-4" data-aos="flip-up" data-aos-duration="850" data-aos-delay="250"
-                    data-aos-once="true"><a class="portfolio-box"
-                        href="assets/img/fullsize/5.jpg?h=9d1710f81e326a0ea0477045f0e5abb6"><img class="img-fluid"
-                            src="assets/img/thumbnails/paper.gif?h=67e56d813e2c59ea29a8be4c63063aa6">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>Students</span></div>
-                                <div class="project-name"><span>Fee structure/ class/ assignments management</span>
-                                </div>
-                            </div>
-                        </div>
-                    </a></div>
-            </div>
-        </div>
-    </section>
-    <!-- Start: Team Boxed -->
-    <div id="portfolio" class="team-boxed">
-        <div class="container" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="50" data-aos-once="true">
-            <!-- Start: Intro -->
-            <div class="intro">
-                <h2 class="text-center">Our Team </h2>
-                <p class="text-center">Well, nothing would have been possible without these people so cheers</p>
-            </div>
-            <!-- End: Intro -->
-            <!-- Start: People -->
-            <div class="row mx-0 justify-content-center people">
-                <div class="col-md-6 col-lg-4 item">
-                    <div data-bs-hover-animate="pulse" class="box"><img class="rounded-circle"
-                            src="assets/img/0.jpeg?h=e2bad9a077261cdb652b10e73bfb7012">
-                        <h3 class="name">Francis Leo Jesvyn</h3>
-                        <p class="title">&nbsp;Entrepreneur | Musician | Developer.</p>
-                        <p class="description">An Electronic and communication engineer, doing great in my academics
-                            also love attending events, which put my skills to test, a fast learner, good at programming
-                            ....I am an engineer who who aspires to do a lot more.</p>
-                        <div class="social"><a href="https://www.linkedin.com/in/francisleo/"><i
-                                    class="fa fa-linkedin"></i></a><a href="https://github.com/leojes/"><i
-                                    class="fa fa-github"></i></a><a href="https://www.instagram.com/francisnowhere/"><i
-                                    class="fa fa-instagram"></i></a></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 item">
-                    <div data-bs-hover-animate="pulse" class="box"><img class="rounded-circle"
-                            src="assets/img/2.jpg?h=218dcd62a838a01d9c15e7c07f6339c1">
-                        <h3 class="name">Emily Clark</h3>
-                        <p class="title">Artist</p>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus.
-                            Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo
-                            suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
-                        <div class="social"><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i
-                                    class="fa fa-github"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 item">
-                    <div data-bs-hover-animate="pulse" class="box"><img class="rounded-circle"
-                            src="assets/img/2.jpg?h=218dcd62a838a01d9c15e7c07f6339c1">
-                        <h3 class="name">Emily Clark</h3>
-                        <p class="title">Artist</p>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus.
-                            Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo
-                            suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
-                        <div class="social"><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i
-                                    class="fa fa-github"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 item">
-                    <div data-bs-hover-animate="pulse" class="box"><img class="rounded-circle"
-                            src="assets/img/2.jpg?h=218dcd62a838a01d9c15e7c07f6339c1">
-                        <h3 class="name">Emily Clark</h3>
-                        <p class="title">Artist</p>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus.
-                            Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo
-                            suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
-                        <div class="social"><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i
-                                    class="fa fa-github"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 item">
-                    <div data-bs-hover-animate="pulse" class="box"><img class="rounded-circle"
-                            src="assets/img/2.jpg?h=218dcd62a838a01d9c15e7c07f6339c1">
-                        <h3 class="name">Emily Clark</h3>
-                        <p class="title">Artist</p>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus.
-                            Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo
-                            suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
-                        <div class="social"><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i
-                                    class="fa fa-github"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 item">
-                    <div data-bs-hover-animate="pulse" class="box"><img class="rounded-circle"
-                            src="assets/img/3.jpg?h=7c5573b813da11d5addf390e32341b7f">
-                        <h3 class="name">Carl Kent</h3>
-                        <p class="title">Stylist</p>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus.
-                            Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo
-                            suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
-                        <div class="social"><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i
-                                    class="fa fa-github"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-                    </div>
-                </div>
-            </div>
-            <!-- End: People -->
-        </div>
-    </div>
-    <!-- End: Team Boxed -->
-    <section data-aos="fade" data-aos-duration="700" data-aos-once="true" id="joinus" class="bg-primary mb-5">
-        <div class="container">
-            <div class="row mx-0">
-                <div class="col offset-lg-8 mx-auto text-center" data-aos="zoom-in" data-aos-duration="800"
-                    data-aos-once="true">
-                    <h2 class="text-white section-heading">We've got what you need!</h2>
-                    <hr class="light my-4">
-                    <p class="text-faded mb-4">Ever felt that your institution can be something more? .... Are you the
-                        one who believe in student power and the importance of quality educaion.? we have the solution
-                        right here. join our forum on discord/whats app and be a part of
-                        our journey to excellence.</p><a class="btn btn-light btn-xl js-scroll-trigger mr-2"
-                        role="button" data-aos="zoom-in-right" data-aos-duration="800" data-aos-delay="1000"
-                        data-aos-once="true" href="#services">whats app!</a><a
-                        class="btn btn-light btn-xl js-scroll-trigger" role="button" data-aos="zoom-in-left"
-                        data-aos-duration="800" data-aos-delay="1000" data-aos-once="true" href="#services">Discord
-                        !</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Start: Contact Form Clean -->
-    <div id="contact" class="contact-clean"
-        style="background: url(&quot;assets/img/eduardo-sanchez-rSRWst-IGlA-unsplash.jpg?h=1e0a2a51dfb134a58fe757975cbbf111&quot;) center;">
-        <form data-aos="flip-up" data-aos-duration="950" data-aos-once="true" method="post">
-            <h2 class="text-center" data-aos="fade-down" data-aos-duration="850" data-aos-delay="150"
-                data-aos-once="true">Lets get in touch</h2>
-            <p>Want contact us? That's great! fill up the form below and we will get back to you as soon as possible!
-            </p>
-            <!-- Start: Error Example -->
-            <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"><input
-                    class="form-control is-invalid" type="email" name="email" placeholder="Email">
-                <!-- Start: The Error Message --><small class="form-text text-danger">Please enter a correct email
-                    address.</small>
-                <!-- End: The Error Message --><select class="form-control">
-                    <option value="student">Student</option>
-                    <option value="lecturer">Lecturer</option>
-                    <option value="Institution" selected="">Instituion Authority/ Representative</option>
-                    <option value="company">Company Authority/ Representative</option>
-                    <option value="other">Other</option>
-                </select></div>
-            <!-- End: Error Example -->
-            <div class="form-group"><select class="form-control">
-                    <option value="call">Lets get on a Call.!</option>
-                    <option value="know more" selected="">I want to know more</option>
-                    <option value="Problem">Have a problem</option>
-                    <option value="Buy">I want to buy this prduct</option>
-                </select></div>
-            <div class="form-group"><textarea class="form-control" name="message" placeholder="Message"
-                    rows="14"></textarea></div>
-            <div class="form-group"><button class="btn btn-primary" type="submit">send </button>
-                <!-- Start: success message --><small class="form-text text-success">Thank you for your time, Prodigo
-                    team will get back to you shortly</small>
-                <!-- End: success message -->
-            </div>
-        </form>
-    </div>
-    <!-- End: Contact Form Clean -->
-    <!-- Start: Footer Dark -->
-    <div class="footer-dark">
-        <footer>
+            </section>
+        </header>
+        <section id="features">
             <div class="container">
                 <div class="row mx-0">
-                    <!-- Start: About -->
-                    <div class="col-12 col-md-3 item">
-                        <h3>About</h3>
-                        <ul>
-                            <li><a href="#">Company</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Careers</a></li>
-                        </ul>
+                    <div class="col-lg-12 text-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100"
+                        data-aos-once="true">
+                        <h2 class="section-heading">At Your Service</h2>
+                        <hr class="my-4">
                     </div>
-                    <!-- End: About -->
-                    <!-- Start: Services -->
-                    <div class="col-12 col-md-6 col-lg-3 item">
-                        <h3>Contact</h3>
-                        <ul>
-                            <li><i class="fa fa-phone mr-3"></i><a href="#">+917207883569</a></li>
-                            <li><i class="fa fa-envelope-o mr-3"></i><a href="#">jesvyn14@gmail.com</a></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                    <!-- End: Services -->
-                    <!-- Start: Footer Text -->
-                    <div class="col-12 col-md-6 item text">
-                        <h3>Prodigo</h3>
-                        <p>A enterprise resource planning (E.R.P) platform with many modules that can handle various
-                            tasks of various departments of your institution.</p>
-                    </div>
-                    <!-- End: Footer Text -->
                 </div>
-                <div class="row mx-0">
-                    <!-- Start: Social Icons -->
-                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
-                                class="icon ion-social-twitter"></i></a><a href="#"><i
-                                class="icon ion-social-instagram"></i></a><a href="#"><i
-                                class="icon ion-social-linkedin"></i></a></div>
-                    <!-- End: Social Icons -->
-                </div>
-                <!-- Start: Copyright -->
-                <p class="copyright">Prodigo © 2020</p>
-                <!-- End: Copyright -->
             </div>
-        </footer>
+            <div class="container">
+                <div class="row mx-0">
+                    <div class="col-md-6 col-lg-3 text-center">
+                        <div class="mx-auto service-box mt-5"><i
+                                class="fa fa-tencent-weibo fa-4x text-primary mb-3 sr-icons" data-aos="zoom-in"
+                                data-aos-duration="200" data-aos-once="true"></i>
+                            <h3 class="mb-3">Network of modules</h3>
+                            <p class="text-muted mb-0">Our modules are updated regularly so they don't break.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center">
+                        <div class="mx-auto service-box mt-5"><i
+                                class="fa fa-puzzle-piece fa-4x text-primary mb-3 sr-icons" data-aos="zoom-in"
+                                data-aos-duration="200" data-aos-delay="200" data-aos-once="true"></i>
+                            <h3 class="mb-3">Chance to customise</h3>
+                            <p class="text-muted mb-0">You can use this module as is, or you can make changes!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center">
+                        <div class="mx-auto service-box mt-5"><i class="fa fa-laptop fa-4x text-primary mb-3 sr-icons"
+                                data-aos="zoom-in" data-aos-duration="200" data-aos-delay="400"
+                                data-aos-once="true"></i>
+                            <h3 class="mb-3">Up to Date with technology</h3>
+                            <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center">
+                        <div class="mx-auto service-box mt-5"><i class="fa fa-user fa-4x text-primary mb-3 sr-icons"
+                                data-aos="fade" data-aos-duration="200" data-aos-delay="600" data-aos-once="true"></i>
+                            <h3 class="mb-3">Problem based approach</h3>
+                            <p class="text-muted mb-0">You do some thing when you need it and have been affected by it
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="p-0">
+            <div class="container-fluid p-0">
+                <div class="row mx-0 justify-content-center no-gutters popup-gallery">
+                    <div class="col-sm-6 col-lg-4" data-aos="flip-up" data-aos-duration="850" data-aos-delay="100"
+                        data-aos-once="true"><a class="portfolio-box"
+                            href="assets/img/thumbnails/group.gif?h=6504d25e9670051dc77bac97a8b96585"><img
+                                class="img-fluid"
+                                src="assets/img/thumbnails/group.gif?h=6504d25e9670051dc77bac97a8b96585">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded"><span>Student</span></div>
+                                    <div class="project-name"><span>Forum management</span></div>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="col-sm-6 col-lg-4" data-aos="flip-up" data-aos-duration="850" data-aos-delay="150"
+                        data-aos-once="true"><a class="portfolio-box"
+                            href="assets/img/thumbnails/custom.gif?h=bd371d9cb84a87549e4994337ca1524a"><img
+                                class="img-fluid"
+                                src="assets/img/thumbnails/custom.gif?h=bd371d9cb84a87549e4994337ca1524a">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded"><span>Teacher</span></div>
+                                    <div class="project-name"><span>Class Planning aid</span></div>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="col-sm-6 col-lg-4" data-aos="flip-up" data-aos-duration="850" data-aos-delay="50"
+                        data-aos-once="true"><a class="portfolio-box"
+                            href="assets/img/thumbnails/schedule.gif?h=4b6726638b9678ba9d8cb43cfe917db3"><img
+                                class="img-fluid"
+                                src="assets/img/thumbnails/schedule.gif?h=4b6726638b9678ba9d8cb43cfe917db3">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded"><span>Student/Teachers</span></div>
+                                    <div class="project-name"><span>Automatic Scheduling</span></div>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="col-sm-6 col-lg-4" data-aos="flip-up" data-aos-duration="850" data-aos-delay="200"
+                        data-aos-once="true"><a class="portfolio-box"
+                            href="assets/img/thumbnails/data.gif?h=a2fc4b2de5ceef3b1e2824801bda7670"><img
+                                class="img-fluid"
+                                src="assets/img/thumbnails/data.gif?h=a2fc4b2de5ceef3b1e2824801bda7670">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded"><span>Institution</span></div>
+                                    <div class="project-name"><span>Own profiles and up-to date insights, which include
+                                            data
+                                            relevant to student and teacher.</span></div>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="col-sm-6 col-lg-4" data-aos="flip-up" data-aos-duration="850" data-aos-delay="300"
+                        data-aos-once="true"><a class="portfolio-box"
+                            href="assets/img/thumbnails/help.gif?h=18f9b55ade028bed8b383e4bceaa0822"><img
+                                class="img-fluid"
+                                src="assets/img/thumbnails/help.gif?h=18f9b55ade028bed8b383e4bceaa0822">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded"><span>Teacher/ Student</span></div>
+                                    <div class="project-name"><span>Mentoring and personal help given when required
+                                            direct
+                                            or anonymous&nbsp;</span></div>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="col-sm-6 col-lg-4" data-aos="flip-up" data-aos-duration="850" data-aos-delay="250"
+                        data-aos-once="true"><a class="portfolio-box"
+                            href="assets/img/thumbnails/paper.gif?h=67e56d813e2c59ea29a8be4c63063aa6"><img
+                                class="img-fluid"
+                                src="assets/img/thumbnails/paper.gif?h=67e56d813e2c59ea29a8be4c63063aa6">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded"><span>Students</span></div>
+                                    <div class="project-name"><span>Fee structure/ class/ assignments management</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a></div>
+                </div>
+            </div>
+        </section>
+        <!-- Start: Team Boxed -->
+        <section id="portfolio" class="team-boxed py-4"
+            style="background: url(&quot;assets/img/1scribble.svg&quot;) bottom right no-repeat, url(&quot;assets/img/2scribble.svg&quot;) top left no-repeat; ">
+            <div class="container" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="50"
+                data-aos-once="true">
+                <!-- Start: Intro -->
+                <div class="intro">
+                    <h2 class="text-center">Our Team </h2>
+                    <hr>
+                    <p class="text-center">Well, nothing would have been possible without these people so cheers</p>
+                </div>
+                <!-- End: Intro -->
+                <!-- Start: People -->
+                <div class="row mx-0 justify-content-center people">
+                    <div class="col-md-6 col-lg-4 item">
+                        <div data-bs-hover-animate="pulse" class="box"><img class="rounded-circle"
+                                src="assets/img/0.jpeg?h=e2bad9a077261cdb652b10e73bfb7012">
+                            <h3 class="name">Francis Leo Jesvyn</h3>
+                            <p class="title">&nbsp;Entrepreneur | Musician | Developer.</p>
+                            <em class="text-left"><i class="fa fa-quote-left align-top font-10"
+                                    aria-hidden="true"></i>Yesterday, when it was tomorrow, it was too much of a day for
+                                me.<i class="fa fa-quote-right align-top font-10" aria-hidden="true"></i>
+                            </em>
+                            <p class="description">An Electronic and communication engineer, loves challenges which put
+                                his skills to test, a fast learner,
+                                good
+                                at programming. An innovator who who aspires to do a lot more.</p>
+                            <div class="social"><a href="https://www.linkedin.com/in/francisleo/"><i
+                                        class="fa fa-linkedin"></i></a><a href="https://github.com/leojes/"><i
+                                        class="fa fa-github"></i></a><a
+                                    href="https://www.instagram.com/francisnowhere/"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <div data-bs-hover-animate="pulse" class="box"><img class="rounded-circle"
+                                src="assets/img/pacchu.jpeg?h=218dcd62a838a01d9c15e7c07f6339c1">
+                            <h3 class="name">Prashant Nandipati</h3>
+                            <p class="title">Animator | Game Developer</p>
+                            <em class="text-left"><i class="fa fa-quote-left align-top font-10"
+                                    aria-hidden="true"></i>I'm
+                                not the one you're looking for Right? <i class="fa fa-quote-right align-top font-10"
+                                    aria-hidden="true"></i>
+                            </em>
+                            <p class="description">If He had won the award for laziness, He would send someone to pick it up
+                                for me. So yeah just random text so that this part does not look empty. but if you want
+                                to know about him check his social media.</p>
+                            <div class="social"><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i
+                                        class="fa fa-github"></i></a><a href="#"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <div data-bs-hover-animate="pulse" class="box"><img class="rounded-circle"
+                                src="assets/img/grace.jpg?h=218dcd62a838a01d9c15e7c07f6339c1">
+                            <h3 class="name">Lekha Grace</h3>
+                            <p class="title">Programmer</p>
+                            <em class="text-left"><i class="fa fa-quote-left align-top font-10"
+                                    aria-hidden="true"></i>Work
+                                until the expensive becomes cheap <i class="fa fa-quote-right align-top font-10"
+                                    aria-hidden="true"></i>
+                            </em>
+                            <p class="description">Student in computer science engineering. Very curious to learn
+                                things.Love exploring and trying stuff out. She is an explorer of new things, Out of box
+                                thinker. She LOVE "CODING".</p>
+                            <div class="social"><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i
+                                        class="fa fa-github"></i></a><a href="#"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <div data-bs-hover-animate="pulse" class="box"><img class="rounded-circle"
+                                src="assets/img/vijay.jpg?h=218dcd62a838a01d9c15e7c07f6339c1">
+                            <h3 class="name">Vijay Shankar</h3>
+                            <p class="title">Developer | Programmer</p>
+                            <em class="text-left"><i class="fa fa-quote-left align-top font-10"
+                                    aria-hidden="true"></i>Life
+                                is a giant bruh moment <i class="fa fa-quote-right align-top font-10"
+                                    aria-hidden="true"></i>
+                            </em>
+                            <p class="description">A computer science student always looking forward to learn something
+                                new.
+                                Networking and computer organization are his strong hold but he is open to anything and
+                                everything, he is looking forward for a great era of science and learning. </p>
+                            <div class="social"><a href="https://www.linkedin.com/in/vijay-shankar-bb40311a2/"><i
+                                        class="fa fa-linkedin"></i></a><a href="https://github.com/manbonpan/"><i
+                                        class="fa fa-github"></i></a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <div data-bs-hover-animate="pulse" class="box"><img class="rounded-circle"
+                                src="assets/img/renu.jpg?h=218dcd62a838a01d9c15e7c07f6339c1">
+                            <h3 class="name">Pinjarala Renu</h3>
+                            <p class="title">Potato | Writing & Wildlife enthusiast</p>
+                            <em class="text-left"><i class="fa fa-quote-left align-top font-10" aria-hidden="true"></i>I
+                                Don't Even Have A Pla.... <i class="fa fa-quote-right align-top font-10"
+                                    aria-hidden="true"></i>
+                            </em>
+                            <p class="description">Just another human trynna stay sane in this crazy world. Gets high on
+                                music and lost in books. Currently mothering her plants while looking for a job to help
+                                deal
+                                with her existential crisis. </p>
+                            <div class="social"><a href="https://www.linkedin.com/in/pinjarala-r-4926581a5/"><i
+                                        class="fa fa-linkedin"></i></a><a href="https://github.com/pinjarala/"><i
+                                        class="fa fa-github"></i></a><a
+                                    href="https://www.instagram.com/pinjarala_renu/"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End: People -->
+            </div>
+        </section>
+        <!-- End: Team Boxed -->
+        <section data-aos="fade" data-aos-duration="700" data-aos-once="true" id="joinus" class="bg-primary mb-5">
+            <div class="container">
+                <div class="row mx-0">
+                    <div class="col offset-lg-8 mx-auto text-center" data-aos="zoom-in" data-aos-duration="800"
+                        data-aos-once="true">
+                        <h2 class="text-white section-heading">We've got what you need!</h2>
+                        <hr class="light my-4">
+                        <p class="text-faded mb-4">Ever felt that your institution can be something more? .... Are you
+                            the
+                            one who believe in student power and the importance of quality educaion.? we have the
+                            solution
+                            right here. join our forum on discord/whats app and be a part of
+                            our journey to excellence.</p><a class="btn btn-light btn-xl js-scroll-trigger mr-2"
+                            role="button" data-aos="zoom-in-right" data-aos-duration="800" data-aos-delay="1000"
+                            data-aos-once="true" href="#services">whats app!</a><a
+                            class="btn btn-light btn-xl js-scroll-trigger" role="button" data-aos="zoom-in-left"
+                            data-aos-duration="800" data-aos-delay="1000" data-aos-once="true" href="#services">Discord
+                            !</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Start: Contact Form Clean -->
+        <div id="contact" class="contact-clean"
+            style="background: url(&quot;assets/img/eduardo-sanchez-rSRWst-IGlA-unsplash.jpg?h=1e0a2a51dfb134a58fe757975cbbf111&quot;) center;">
+            <form data-aos="flip-up" data-aos-duration="950" data-aos-once="true" method="post">
+                <h2 class="text-center" data-aos="fade-down" data-aos-duration="850" data-aos-delay="150"
+                    data-aos-once="true">Lets get in touch</h2>
+                <p>Want contact us? That's great! fill up the form below and we will get back to you as soon as
+                    possible!
+                </p>
+                <!-- Start: Error Example -->
+                <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"><input
+                        class="form-control is-invalid" type="email" name="email" placeholder="Email">
+                    <!-- Start: The Error Message --><small class="form-text text-danger">Please enter a correct email
+                        address.</small>
+                    <!-- End: The Error Message --><select class="form-control">
+                        <option value="student">Student</option>
+                        <option value="lecturer">Lecturer</option>
+                        <option value="Institution" selected="">Instituion Authority/ Representative</option>
+                        <option value="company">Company Authority/ Representative</option>
+                        <option value="other">Other</option>
+                    </select></div>
+                <!-- End: Error Example -->
+                <div class="form-group"><select class="form-control">
+                        <option value="call">Lets get on a Call.!</option>
+                        <option value="know more" selected="">I want to know more</option>
+                        <option value="Problem">Have a problem</option>
+                        <option value="Buy">I want to buy this prduct</option>
+                    </select></div>
+                <div class="form-group"><textarea class="form-control" name="message" placeholder="Message"
+                        rows="14"></textarea></div>
+                <div class="form-group"><button class="btn btn-primary" type="submit">send </button>
+                    <!-- Start: success message --><small class="form-text text-success">Thank you for your time,
+                        Prodigo
+                        team will get back to you shortly</small>
+                    <!-- End: success message -->
+                </div>
+            </form>
+        </div>
+        <!-- End: Contact Form Clean -->
+        <!-- Start: Footer Dark -->
+        <div class="footer-dark">
+            <footer>
+                <div class="container">
+                    <div class="row mx-0">
+                        <!-- Start: About -->
+                        <div class="col-12 col-md-3 item">
+                            <h3>About</h3>
+                            <ul>
+                                <li><a href="#Career" data-toggle="modal">Company</a></li>
+                                <li><a href="#Career" data-toggle="modal">Team</a></li>
+                                <li><a href="#Career" data-toggle="modal">Careers</a></li>
+                            </ul>
+                        </div>
+                        <!-- End: About -->
+                        <!-- Start: Services -->
+                        <div class="col-12 col-md-6 col-lg-3 item">
+                            <h3>Contact</h3>
+                            <ul>
+                                <li><i class="fa fa-phone mr-3"></i><a href="javascript:cpyClipboard('num')"
+                                        id="num">+917207883569</a></li>
+                                <li><i class="fa fa-envelope-o mr-3"></i><a href="javascript:cpyClipboard('mail')"
+                                        id='mail'>jesvyn14@gmail.com</a></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <!-- End: Services -->
+                        <!-- Start: Footer Text -->
+                        <div class="col-12 col-md-6 item text">
+                            <h3>Prodigo</h3>
+                            <p>A enterprise resource planning (E.R.P) platform with many modules that can handle various
+                                tasks of various departments of your institution.</p>
+                        </div>
+                        <!-- End: Footer Text -->
+                    </div>
+                    <div class="row mx-0">
+                        <!-- Start: Social Icons -->
+                        <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a
+                                href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i
+                                    class="icon ion-social-instagram"></i></a><a href="#"><i
+                                    class="icon ion-social-linkedin"></i></a></div>
+                        <!-- End: Social Icons -->
+                    </div>
+                    <!-- Start: Copyright -->
+                    <p class="copyright">Prodigo © 2020</p>
+                    <!-- End: Copyright -->
+                </div>
+            </footer>
+        </div>
+        <!-- End: Footer Dark -->
     </div>
-    <!-- End: Footer Dark -->
+
+    <!--Modal: modalCoupon-->
+    <div class="modal fade top" id="Coupon" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true" data-backdrop="true">
+        <div class="modal-dialog modal-frame modal-top modal-notify modal-success" role="document">
+            <!--Content-->
+            <div class="modal-content">
+                <!--Body-->
+                <div class="modal-body">
+                    <div class="row d-flex justify-content-center align-items-center">
+
+                        <h2>
+                            <span class="badge">v52gs1</span>
+                        </h2>
+                        <p class="pt-3 mx-4">We have a gift for you! Use this code to get a
+                            <strong>10% discount</strong>.</p>
+
+                        <a type="button" class="btn btn-success">Get it
+                            <i class="fas fa-book ml-1 white-text"></i>
+                        </a>
+                        <a type="button" class="btn btn-outline-success waves-effect" data-dismiss="modal">No,
+                            thanks</a>
+                    </div>
+                </div>
+            </div>
+            <!--/.Content-->
+        </div>
+    </div>
+    <!--Modal: modalCoupon-->
+    <!-- Modal: simple -->
+    <div class="modal fade" id="Career" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Prodigo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-fluid mx-auto mb-3" style="border-radius: 10px;" src="assets/img/404.gif">
+                    Thank you for checking our page but this section is <span
+                        class="font-weight-bold text-primary">under
+                        construction</span><br>Come Back Later..but make sure to <span class="font-weight-bold">follow
+                        our pages for updates</span>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var myVar;
+        function myFunction() {
+            myVar = setTimeout(showPage, 2000);
+        }
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+
+        function cpyClipboard(id) {
+            const el = document.createElement('textarea');
+            el.value = document.getElementById(id).text;
+            document.body.appendChild(el);
+            el.select();
+            document.execCommand('copy');
+            alert("Copied: " + el.value);
+            document.body.removeChild(el);
+        }
+
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bs-init.js?h=a24a748d1ebf2b30dec97d2c79b26872"></script>

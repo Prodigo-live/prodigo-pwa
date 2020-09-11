@@ -15,10 +15,15 @@
 @media (min-width: 1200px) {
   #mainNav {
     padding: 20px 100px;
-    margin-bottom: 100px;
+    
   }
 }
-
+#mainNav.navbar-shrink {
+	border-bottom: 1px solid rgba(33,37,41,.1);
+  background-color: #fff;
+  box-shadow: 0px 2px 20px #0000004f;
+  opacity: 0.9;
+}
 .btn.btn-primary {
   background-color: #FFBD69;
   transition: transform .4s;
@@ -27,9 +32,8 @@
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 .2rem #ffbd69!important;
+  box-shadow: 0 0 5 .2rem #ffbd69!important;
 }
-
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   color: #fff;
   background-color: #FFBD69!important;
@@ -39,12 +43,21 @@
 body {
   font-family: quicksand,Helvetica Neue,Arial,sans-serif;
 }
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+	color: #FFBD69;
+}
+#mainNav .navbar-brand {
+	color: #FFBD69;
+}
 #mainNav.navbar-shrink .navbar-brand, #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
 	color: #FFBD69;
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
 	color: #FFBD69 !important;
 	background-color: transparent;
+}
+#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover {
+  color: #FFBD69;
 }
 .text-primary{
   color: #FFBD69 !important;
@@ -65,4 +78,10 @@ hr{
 }
 html{
   overflow-x: hidden;
+}
+body.modal-open {
+  overflow: visible;
+}
+.font-10{
+  font-size: 10px;
 }
