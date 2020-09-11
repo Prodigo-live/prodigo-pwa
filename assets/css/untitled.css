@@ -85,3 +85,12 @@ body.modal-open {
 .font-10{
   font-size: 10px;
 }
+#loader{
+  -webkit-transition: opacity 600ms, visibility 600ms;
+  transition: opacity 600ms, visibility 600ms;
+  height: 100vh;
+}
+#main{
+  -webkit-transition: opacity 600ms, visibility 600ms;
+  transition: opacity 600ms, visibility 600ms;
+}
