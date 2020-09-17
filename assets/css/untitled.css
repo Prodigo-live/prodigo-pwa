@@ -94,3 +94,9 @@ body.modal-open {
   -webkit-transition: opacity 600ms, visibility 600ms;
   transition: opacity 600ms, visibility 600ms;
 }
+#joinus,#contact {
+  display: block;
+  height: 92px;
+  margin-top: -92px;
+  visibility: hidden;
+}
